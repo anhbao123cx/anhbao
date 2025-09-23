@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: load-test
+    env: python
+    plan: free   # hoặc starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python load_test.py --url https://nhacaituoilon.site --requests 10000000000 --concurrency 20 --confirm
