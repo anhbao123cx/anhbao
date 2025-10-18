@@ -13,8 +13,8 @@ LOGIN_URL = f"{BASE}/login"
 LOBBY_URL = f"{BASE}/ae/lobby"
 GETNEWRESULT_URL = f"{BASE}/baccarat/getnewresult"
 
-USERNAME = "Nam1411"
-PASSWORD = "Nam14112009"
+USERNAME = "anhbaocx"
+PASSWORD = "11111111"
 
 # ======================
 # Biến toàn cục
